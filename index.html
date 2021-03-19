@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <title>Sign up now</title>
+
+  <!-- add favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- add css styling -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/mquery.css">
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+  <!-- Code the whole project so you will be able to learn the things that I have shown to the video: https://youtu.be/pOOaVuFa4Dw -->
+
+  <section class="main">
+    <div class="form__box">
+      <div class="top">
+        <h3>Create Account</h3>
+        <div class="social_login">
+          <span>
+            <button><i class="fab fa-google"></i></button>
+            <button><i class="fab fa-facebook-f"></i></button>
+            <button><i class="fab fa-twitter"></i></button>
+            <button><i class="fab fa-apple"></i></button>
+          </span>            
+        </div>
+        <p>or use your email for registration:</p>
+      </div>
+
+      <form method="post">
+        <div class="details_input">
+          <input type="text" name="name" placeholder="Name" autocomplete="off">
+          <input type="email" name="email" placeholder="Email" autocomplete="off">
+          <input type="password" name="pass" placeholder="Password">
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" name="check">
+          <span>I agree to the <a href="#">Terms</a> and <a href="#">Privacy policy</a></span>
+        </div>
+
+        <div class="action">
+          <input type="submit" name="signup" value="Sign Up">
+          <input type="submit" name="signin" value="Sign In">
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
