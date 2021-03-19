@@ -6,3 +6,6 @@ Learn to make a responsive registration form with HTML CSS and JavaScript. Don't
 
 Thanks,
 [codermj](https://twitter.com/mjshofy)
+
+![preview](https://user-images.githubusercontent.com/76812554/111789680-a01ed780-88eb-11eb-8e92-831b61fca821.png)
+
